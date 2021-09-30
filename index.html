@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Knife Company</title>
+    <!-- Icon link -->
+    <link rel = "icon" href = 
+"./images/logo-only-colored-resized2.0.svg" 
+        type = "image/x-icon">
+    <!-- Import fontawesome -->
+    <script src="https://kit.fontawesome.com/9bc55c8a15.js" crossorigin="anonymous"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-center" >
+            <img src="./images/myLogoColored-resized.svg" alt="store logo" class="nav-logo">
+            <img src="./images/logo-only-colored-resized2.0.svg" alt="store logo" class="nav-logo-only">
+            <div class="cart-btn">
+                <div class="navbar-links">
+                    <ul>
+                        <li><a class="nav-link" href="#products">Products</a></li>
+                        <li><a class="nav-link" href="#brands">Brands</a></li>
+                        <li><a class="nav-link" href="#ourstory">Our Story</a></li>
+                    </ul>
+                </div>
+                <span class="nav-icon open-nav">
+                    <i class="fas fa-bars"></i>
+                </span>
+                <span class="cart-icon open-cart">
+                    <i class="fas fa-shopping-cart"></i>
+                </span>
+                <div class="cart-items">0</div>
+            </div>
+        </div>
+    </nav>
+    <!-- End Of Navbar -->
+
+
+    <!-- Navbar Overlay -->
+    <div class="nav-overlay">
+        <div class="nav-sidebar">
+            <span class="close-nav">
+                <i class="fas fa-window-close"></i>
+            </span>
+            <div class="navlinks-wrapper">
+                <div class="navbar-links-sidebar">
+                    <ul>
+                        <li><a class="nav-link" href="#products">Products</a></li>
+                        <li><a class="nav-link" href="#brands">Brands</a></li>
+                        <li><a class="nav-link" href="#ourstory">Our Story</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of Navbar Overlay -->
+    
+    
+    <!-- Hero Section  -->
+    <!-- <header class="hero">
+        <div class="banner">
+            <h1 class="banner-title">Knife Collection</h1>
+            <button class="banner-btn">shop now</button>
+        </div>
+    </header> -->
+    <!-- End of Hero Section -->
+
+    <!-- Test Image Carousel -->
+    <div class="slider-section">
+
+        <div class="slider">
+            <!-- fade css -->
+            <div class="myslide fade">
+                <div class="txt">
+                    <h1>1 YEAR JOURNEY</h1>
+                    <p>In order to celebrate our 1 year aninversary properly,<br> sitewide products are 30% off. You're welcome.</p>
+                </div>
+                <img src="./images/img1.jpg" class ="carousel" style="width: 100%; height: 100%;">
+            </div>
+            
+            <div class="myslide fade">
+                <div class="txt">
+                    <h1>COLD STEEL RECON SERIES</h1>
+                    <p>The ever-popular series of knives is back in stock.<br>Choose your next EDC knife in spear point and tanto sizes. </p>
+                </div>
+                <img src="./images/img2.jpg" class ="carousel" style="width: 100%; height: 100%;">
+            </div>
+            
+            <div class="myslide fade">
+                <div class="txt">
+                    <h1>KERSHAW KNIVES</h1>
+                    <p>For the budget conscious but still rockin' the EDC enthusiasts. </p>
+                </div>
+                <img src="./images/img3.jpg" class ="carousel" style="width: 100%; height: 100%;">
+            </div>
+            
+            <div class="myslide fade">
+                <div class="txt">
+                    <h1>IMPINDA</h1>
+                    <p>Latest by Chris Reeves, now in store.</p>
+                </div>
+                <img src="./images/img4.jpg" class ="carousel" style="width: 100%; height: 100%;">
+            </div>
+            
+            <div class="myslide fade">
+                <div class="txt">
+                    <h1>SEBENZAS</h1>
+                    <p>The holy grail of EDC knives according to everyone. Back in stock.</p>
+                </div>
+                <img src="./images/img5.jpg" class ="carousel" style="width: 100%; height: 100%;">
+            </div>
+            <!-- /fade css -->
+            
+            <div class="button-container">
+                <a class="prev">&#10094;</a>
+                <a class="next">&#10095;</a>
+            </div>
+            
+            <!-- onclick js -->
+            
+            <div class="dotsbox" style="text-align:center">
+                <span class="dot" id="1"></span>
+                <span class="dot" id="2"></span>
+                <span class="dot" id="3"></span>
+                <span class="dot" id="4"></span>
+                <span class="dot" id="5"></span>
+            </div>
+            <!-- /onclick js -->
+        </div>
+    </div>
+
+    <!-- End of Test Image Carousel -->
+
+    <!-- Product Section -->
+    <section class="products">
+        <div class="section-title">
+            <h2>BESTSELLERS</h2>
+        </div>
+        <div class="products-center">
+            <!-- Single Product -->
+            <!-- <article class="product">
+                <div class="img-container">
+                    <img src="./images/product-1.jpeg" alt="product" class="product-img">
+                    <button class="bag-btn" data-id="1">
+                        <i class="fas fa-shopping-cart"></i>
+                        Add To Bag
+                    </button>
+                </div>
+                <h3>Queen Bed</h3>
+                <h4>$1500.00</h4>
+            </article> -->
+            <!-- End of Single Product -->
+        </div>
+    </section>
+    <!-- End of Product Section -->
+    <!-- Cart Section -->
+    <div class="cart-overlay">
+        <div class="cart">
+            <span class="close-cart">
+                <i class="fas fa-window-close"></i>
+            </span>
+            <h2>Your Cart</h2>
+            <div class="cart-content">
+                <!-- Cart Items -->
+                <!-- <div class="cart-item"> -->
+                    <!-- <img src="./images/product-1.jpeg" alt="product">
+                    <div>
+                        <h4>queen bed</h4>
+                        <h5>$19.00</h5>
+                        <span class="remove-item">remove</span>
+                    </div>
+                    <div>
+                        <i class="fas fa-chevron-up"></i>
+                        <p class="item-amount">1</p>
+                        <i class="fas fa-chevron-down"></i>
+                    </div> -->
+                <!-- </div> -->
+                <!-- End of Cart Items -->
+            </div>
+            <div class="cart-footer">
+                <h3>your total : RM <span class="cart-total">0</span></h3>
+                <button class="clear-cart banner-btn">clear cart</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer-wrapper">
+        <footer class="footer">
+            <div class="footer__addr">
+              <img src="./images/myLogoColored-resized.svg" alt="footer-logo" class="footer_logo"> 
+              <img src="./images/logo-only-colored-resized2.0.svg" alt="footer-logo" class="footer_logo_only">    
+              
+              <address>
+                Somewhere in Malaysia<br>
+                    
+                <a class="footer__btn" href="mailto:example@gmail.com">Email Us</a>
+              </address>
+            </div>
+            
+            <ul class="footer__nav">
+              <li class="nav__item">
+                <h2 class="nav__title">Support</h2>
+          
+                <ul class="nav__ul">
+                  <li>
+                    <a href="#">Return & Exchange</a>
+                  </li>
+          
+                  <li>
+                    <a href="#">Shipping Info</a>
+                  </li>
+                      
+                  <li>
+                    <a href="#">FAQs</a>
+                  </li>
+
+                </ul>
+              </li>
+              
+              <li class="nav__item nav__item--extra">
+                <h2 class="nav__title">About</h2>
+                
+                <ul class="nav__ul nav__ul--extra">
+                  <li>
+                    <a href="#">Medical Supplies</a>
+                  </li>
+                  
+                  <li>
+                    <a href="#">About Us</a>
+                  </li>
+                  
+                  <li>
+                    <a href="#">Press</a>
+                  </li>
+                  
+                  <li>
+                    <a href="#">Careers</a>
+                  </li>
+                  
+                </ul>
+              </li>
+              
+              <li class="nav__item">
+                <h2 class="nav__title">Discover</h2>
+                
+                <ul class="nav__ul">
+                  <li>
+                    <a href="#">Member</a>
+                  </li>
+                  
+                  <li>
+                    <a href="#">Wallpaper</a>
+                  </li>
+                  
+                  <li>
+                    <a href="#">Outlets</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            
+            <div class="legal">
+              <p>&copy; 2020 The Knife Company. All rights reserved.</p>
+              
+            </div>
+          </footer>
+    </div>
+    <!-- End of Footer Section -->
+
+    <!-- End of Cart Section -->
+    <!-- Contentful Port -->
+    <script src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js"></script>
+    <!-- JavaScript Code  -->
+    <script src="index.js"></script>
+</body>
+</html>
